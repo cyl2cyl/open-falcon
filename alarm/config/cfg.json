@@ -7,6 +7,7 @@
     "redis": {
         "addr": "127.0.0.1:6379",
         "maxIdle": 5,
+	"password": "open-falcon",
         "highQueues": [
             "event:p0",
             "event:p1",
@@ -31,7 +32,7 @@
         "plus_api_token": "default-token-used-in-server-side"
     },
     "falcon_portal": {
-        "addr": "root:kingdee@8349@tcp(127.0.0.1:3306)/alarms?charset=utf8&loc=Asia%2FChongqing",
+        "addr": "root:@tcp(127.0.0.1:3306)/alarms?charset=utf8&loc=Asia%2FChongqing",
         "idle": 10,
         "max": 100
     },
